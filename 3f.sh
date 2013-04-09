@@ -14,7 +14,7 @@
 filename=${cartella}/3Flog.txt
 echo "File trovati da 3F - Forensics File Finder:\n" > $filename
 
-find ${cart} -iname "${cosacercare}" -maxdepth 2 >> ${filename} 2>/dev/null
+find ${cart} -iname "${cosacercare}" >> ${filename} 2>/dev/null
 
 
 righe=$(wc -l $filename | awk '{print $1}')
