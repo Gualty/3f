@@ -10,7 +10,6 @@
 	read cosacercare
 	printf "\nDove copiare i file trovati? (Sarà generato anche un file di log)\n"
 	read cartella
-		
 filename=${cartella}/3Flog.txt
 echo "File trovati da 3F - Forensics File Finder:\n" > $filename
 
